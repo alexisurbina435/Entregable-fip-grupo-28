@@ -1,0 +1,87 @@
+/*Inicio*/
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+.padre {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    color: cornsilk;
+    background-color: rgb(208, 68, 68);
+    border-color: black;
+    border-style: groove;
+    border-radius: 1%;
+    display: inline-block;
+    text-align: center;
+}
+
+.indice {
+    background-color: rgb(243, 195, 75);
+    border-color: black;
+    border-style: solid;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    padding: 1%;
+}
+
+.enlace:hover {
+    color:rgb(210, 214, 213);
+    background-color:orangered;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.enlace {
+    background-color:darkgrey;
+    color: black;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+}
+
+.ofertas {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-bottom: 2%;
+    background-size: cover;
+    flex-flow: column;
+    align-items: center;
+}
+
+.achicar {
+    height: 50%;
+    width: 50%;
+}
+
+h2 {
+    border-style:inset;
+    border-color: aliceblue;
+    color: black;
+    font-size: 45px;
+    border-radius: 30px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    list-style-type: circle;
+    justify-content:space-around; 
+}
+
+footer {
+    margin-top: 50px;
+}
+
+h3, h4, h5, h6 {
+    font-size: 30px;
+    color: black;
+    border-style:ridge;
+    border-color: aliceblue;
+}
