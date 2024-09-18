@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Nuevo Tablon - Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="icon" type="image/png" href="imagenes/logo2.png">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navegacion">
+            <div class="Logo">
+                <a href="home.html"><img src="imagenes/Logo.png" alt="Logo del supermercado"></a>
+            </div>
+            <div>
+                <h1>Supermercado "EL NUEVO TABLON"</h1>
+            </div>
+
+            <ul class="links">
+                <li>
+                    <a href="home.html"><i class="fa-solid fa-house"></i></a>
+                </li>
+                <li>
+                    <a href="productos.html">Productos</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor">
+            <form action="" class="formulario" id="formulario">
+                <div>
+                    <h2 class="titulo"> ¿Ténes una consulta?<i class="fa-regular fa-comment-dots"></i></h2>
+                </div>
+                <label for="user">Nombre y Apellido:</label>
+                <input type="text" placeholder="Nombre y Apellido" name="nombre" id="nombre" class="nombre">
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" placeholder="Tu correo electrónico" name="email" id="email" class="email">
+
+                <label for="user">Telefono:</label>
+                <input type="tel" placeholder="Telefono" name="telefono" id="telefono" min="0" class="telefono">
+
+                <label for="user">Ingrese su consulta:</label>
+                <textarea placeholder="Tu comentario aqui..." name="consulta" id="consulta" class="consulta"></textarea>
+
+                <input type="submit" value="Enviar" id="btn" class="btn">
+            </form>
+        </div>
+        <section class="section">
+            </div class="segundo-contacto">
+            <p>Sino contactanos por</p>
+            <nav class="contacto">
+                <a class="whatsapp" href="http://whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a class="face" href="http://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a class="insta" href="http://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </nav>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="final">
+            <div class="sociales">
+                <p class="seguir">Seguinos</p>
+                <ul class="redes">
+                    <li>
+                        <a class="facebook" href="http://facebook.com" target=_blank>
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="instagram" href="http://instagram.com" target=_blank>
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nombre">
+                <p class="creado">Creado por Alexis Urbina</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="contacto.js"></script>
+</body>
+
+</html>
